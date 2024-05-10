@@ -1,0 +1,19 @@
+# Contact Form Script
+
+This script provides a simple contact form with backend validation and submission handling using CORE PHP. It also includes integration with Google reCAPTCHA to prevent spam submissions.
+
+## Features
+
+- HTML form with fields for Full Name, Phone Number, Email, Subject, and Message.
+- Backend validation of form fields to ensure correct and valid input.
+- Integration with Google reCAPTCHA to prevent bot submissions.
+- Rate limiting to prevent spam submissions from the same IP address.
+- Secure handling of form submissions using prepared statements to prevent SQL injection attacks.
+- Email notification to the site owner upon successful form submission.
+- Error handling for invalid input and submission failures.
+
+## Prerequisites
+
+- Web server (e.g., Apache,) with PHP support.
+- MySQL database server.
+- Google reCAPTCHA site and secret keys.

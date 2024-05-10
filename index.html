@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1.0">
+        <title>Contact Form</title>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+        <h2>Contact Us</h2>
+        <form method="POST" action="submit.php">
+            <label for="Full Name" >Full Name</label><br>
+            <input type="text" name="full_name" id="full_name" required><br>
+
+            <label for="Phone Number" >Phone Number</label><br>
+            <input type="text" name="phone_number" id="phone_number" required><br>
+
+
+            <label for="Email" >Email</label><br>
+            <input type="text" name="email" id="email" required><br>
+
+            <label for="Subject" >Subject</label><br>
+            <input type="text" name="subject" id="subject" required><br>
+
+            <label for="Message" >Message</label><br>
+            <textarea name="message" id="message" row="4" cols="50" required></textarea><br>
+            <div class="g-recaptcha" data-sitekey="6Lex6dcpAAAAAFzBiayAb6AUsO-qOCEQGJOW0av6"></div><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
